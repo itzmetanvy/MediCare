@@ -47,7 +47,7 @@ background-size:cover;
     position: absolute;
     text-align: center;
     top: 6rem;
-    left: 37rem;
+    left: 35rem;
     font-size: 4.5rem;
     letter-spacing: .6rem;
     color: #FDB784;
@@ -133,7 +133,7 @@ background-size:cover;
 
 
 /* media queries */
-@media (max-width:1150px) {
+@media screen and (min-width:768px) and (max-width:1023px){
     .headings h1{
       position: absolute;
       left: 15rem;
@@ -149,19 +149,38 @@ background-size:cover;
        left: 10rem;
        
     }
+    .services h2{
+        position: absolute;
+        left: 17rem;
+    }
+    .container h4{
+        font-size: 1.4rem;
+    }
 }
 
 
-@media (max-width:450px){
+@media screen and (max-width:767px){
 .headings h1{
     position: absolute;
+    font-size: 3rem;
+    left: 3rem;
+}
+.headings h2{
+    position: absolute;
     left: 2rem;
-    font-size: x-small;
+    font-size: 2rem;
 }
 .headings p{
     position: absolute;
-   left: 10rem;
-  font-size: 0rem;
+    left: 2rem;
+    top: 17rem;
+    font-size: 1.4rem;
 }
-
+.services h2{
+    position: absolute;
+    left: 5rem;
+}
+.container h4{
+    font-size: 1.2rem;
+}
 }
