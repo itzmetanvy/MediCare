@@ -58,7 +58,7 @@ background-size:cover;
     text-align: center;
     top: 13rem;
     left: 28rem;
-    font-size:2.9rem ;
+    font-size:2.7rem ;
     color: #FFB567;
     text-shadow: 1px 1px 1px #000, 3px 3px 3px blue;
     letter-spacing: .4rem;
@@ -105,9 +105,10 @@ background-size:cover;
     text-decoration: underline;
 }
 .container{
+    display: flex;
     position: absolute;
     top: 36rem;
- 
+ padding: 0rem 1rem;
 }
 .container h4{
     color: #07263E;
@@ -133,7 +134,7 @@ background-size:cover;
 
 
 /* media queries */
-@media screen and (min-width:768px) and (max-width:1023px){
+@media screen and (min-width:768px) and (max-width:1043px){
     .headings h1{
       position: absolute;
       left: 15rem;
@@ -146,8 +147,8 @@ background-size:cover;
     }
     .headings p{
         position: absolute;
-       left: 10rem;
-       
+       left: 15rem;
+      
     }
     .services h2{
         position: absolute;
@@ -163,7 +164,7 @@ background-size:cover;
 .headings h1{
     position: absolute;
     font-size: 3rem;
-    left: 3rem;
+    left: 2rem;
 }
 .headings h2{
     position: absolute;
@@ -173,7 +174,7 @@ background-size:cover;
 .headings p{
     position: absolute;
     left: 2rem;
-    top: 17rem;
+    top: 16rem;
     font-size: 1.4rem;
 }
 .services h2{
