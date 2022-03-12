@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Be+Vietnam+Pro:wght@500&family=Calligraffitti&family=Courgette&family=El+Messiri&family=Kaushan+Script&family=League+Spartan&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,900&family=Rochester&family=Rubik:ital,wght@0,300;0,600;0,700;1,400&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+html{
+    overflow-y: scroll;
+}
+
+section{
+    padding:2rem 7%;
+}
+body{
+    background: #eee;
+}
+
+.name h1{
+    font-size: 3.9rem;
+    text-align: center;
+   margin-bottom: 5rem;
+   color:#07263E ;
+   text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.name img{
+   height: 3rem;
+   width: 3rem;
+   
+}
+.card h5{
+    color: #07263E;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.card h6{
+    color: #07263E;
+    font-size: 1.2rem;
+}
+
+
+.card{
+margin: 2.2rem;
+position: relative;
+display: flex;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+border-radius: 5%;
+transition: 0.5 ease-in;
+z-index: 5;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.stars{
+    position: absolute;
+    top: 6rem;
+   left: 22rem;
+   
+    
+   
+}
+.stars i{
+    font-size: 1.4rem;
+    color: #9D5C0D;
+    
+}
+
+.details h3{
+    position: absolute;
+    top: 10rem;
+    left: 22rem;
+    font-size: 1.3rem;
+}
+.details h4{
+    position: absolute;
+    top: 15rem;
+    left: 22rem;
+    font-size: 1.5rem;
+   
+}
+
+
+/* Media queries */
+@media screen  and (max-width:790px){
+    .name h1{
+        font-size: 2.9rem;
+        
+    }
+   
+} 
